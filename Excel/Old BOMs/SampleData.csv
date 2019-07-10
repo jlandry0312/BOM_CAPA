@@ -1,0 +1,13 @@
+LINE,QTY,PROJECT TAG,DESCRIPTION,MFG PART NO.,SM PART NO.,MANUFACTURER,REV CODE,REV NUM,VENDOR,COST PER,EXT COST,PRICE PER,EXT PRICE,LEAD TIME,NOTES,COMP WEIGHT,TOTAL WEIGHT,HAZARDOUS MARKING,T-CLASS,AMB TEMP MIN,AMB TEM MAX,OPERATING TEMP MIN,OPERATING TEMP MAX,MAX THERMAL DISSAPATION,ATEX CERTIFICATE,IECEx CERTIFICATE,EAC CERTIFICATE
+1.00,8.00,2656sdf,TB30,6SL3055-0AA00-2TA0,520262.00,Siemens,P,1.00,Exloc,$681.12,"$5,449.00","$60,262.00","$100,000.00",14 weeks,bla,22lbs,44lbs,Ex d [ia Ga or ib] IIB,T6,'-20?C,+55?C,'-20?C,+55?C,8.34 BTU/hrr,,IECEx INE 10.0015X,
+2.00,8.00,ASdf6,Basic Operator Panel,6SL3055-0AA00-4BA0,651651.00,Siemens,P,5.00,Abb,$68.51,$548.10,"$60,548.00","$200,000.00",1 weeks,bla,23lbs,55lbs, II 3 G    Ex nA IIC T4 Gc ,T4,'-20?C,+55?C,'-20?C,+55?C,10.32 BTU/hr, DEMKO 04 ATEX 0330347X ,,
+3.00,7.00,Er262,DRIVE-CLiQ cable; DRIVE-CLiQ cable (in fixed lengths) IP20/IP20 (fixed mounting); 0.95 m,6SL3060-4AA10-0AA0,5050262.00,Siemens,A,2.00,Wago,$45.44,$318.10,"$1,262.00","$3,000,000.00",34 weeks,blah,25lbs,66lbs, II 3 G    Ex nA IIC T4 Gc ,T4,'-20?C,+55?C,'-20?C,+55?C,7.5 BTU/hr, DEMKO 04 ATEX 0330347X ,,
+4.00,11.00,fds6,DRIVE-CLiQ cable; DRIVE-CLiQ cable (in fixed lengths) IP20/IP20 (fixed mounting); 0.60 m,6SL3060-4AU00-0AA0,165050.00,Siemens,P,3.00,Exloc,$40.81,$448.90,"$1,512.00","$40,000.00",10 weeks,dfsa,0kg,67lbs, II 3 G    Ex nA IIC T4 Gc ,T4,'-40?C,+70?C,'-20?C,+55?C,6.8 BTU/hr @ 28.8V DC, DEMKO 04 ATEX 0330347X ,,
+5.00,6.00,sfxxxx,SITOP modular 10.00 A,6EP1334-3BA10,502620.00,Siemens,P,3.00,Abb,$360.00,"$2,160.00","$12,168.00","$50,505.00",1 weeks,asdfasd,3kg,88lbs, II 3 G    Ex nA IIC T4 Gc ,T4,'-40?C,+70?C,'-20?C,+55?C,6.8 BTU/hr @ 28.8V DC, DEMKO 04 ATEX 0330347X ,,
+6.00,6.00,656sd,Active Line Module; 80.00 kW,6SL3130-7TE28-0AA3,560650.00,Siemens,O,1.00,Wago,"$7,577.75","$45,466.50","$16,516.00","$6,050.00",3 weeks,asdfasd,5kfg,90lbs, II 3 G    Ex nA IIC T4 Gc ,T4,'-40?C,+70?C,'-40?C,+70?C,2.0 BTU/hr @ 28.8V DC, DEMKO 04 ATEX 0330347X ,,
+7.00,6.00,sdf65,Active Interface Module,6SL3100-0BE28-0AB0,650650.00,Siemens,O,1.00,Wago,"$4,563.66","$27,382.00","$21,651.00","$5,605.00",2 weeks,asdfd,3sdf,100lbs, II 3 G    Ex nA IIC T4 Gc ,T4,'-20?C,+55?C,'-40?C,+70?C,10.0 BTU/hr @ 28.8V DC, DEMKO 04 ATEX 0330347X ,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,

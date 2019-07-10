@@ -1,0 +1,89 @@
+﻿<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>6CAFC0C6-A428-4d30-A9F9-700E829FEA51</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>MyApplication</RootNamespace>
+    <AssemblyName>MyApplication</AssemblyName>
+    <Name>VDS_SnippetsAndTemplates</Name>
+    <ProjectHome />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="Script-Libraries\" />
+    <Folder Include="Script-Samples\" />
+    <Folder Include="Snippet Templates\" />
+    <Folder Include="VDS Script Snippets\" />
+    <Folder Include="VDS XAML Snippets\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Script-Libraries\ADSK.QS.CAD.Library.ps1" />
+    <Compile Include="Script-Samples\Capture-Restore-CmbSelection.ps1" />
+    <Compile Include="Script-Samples\CopyProjectFolderTitleToCADFile.ps1" />
+    <Compile Include="Script-Samples\CopyProjectFolderTitleToVaultFile.ps1" />
+    <Compile Include="Script-Samples\CreateFolder_Subfolders_Properties.ps1" />
+    <Compile Include="Script-Samples\CustomObjectBreadCrumb.ps1" />
+    <Compile Include="Script-Samples\FileOpenDialog.ps1" />
+    <Compile Include="Script-Samples\FolderBreadCrumb.ps1" />
+    <Compile Include="Script-Samples\GetIEntityFromWebServiceEntity.ps1" />
+    <Compile Include="Script-Samples\GetUserGroupMembership_2019-newer.ps1" />
+    <Compile Include="Script-Samples\GetUserGroupMembership_2014-2018.ps1" />
+    <Compile Include="Script-Samples\GoToReplacedBy.ps1" />
+    <Compile Include="Script-Samples\GoToSourceFile.ps1" />
+    <Compile Include="Script-Samples\myOnPostCloseDialog.ps1" />
+    <Compile Include="Script-Samples\NumberschemePropInput_OnPostClose.ps1" />
+    <Compile Include="Script-Samples\PowerShell-Debug.ps1" />
+    <Compile Include="Script-Libraries\ADSK.QS.VLT.Library.ps1" />
+    <Compile Include="Script-Samples\SaveAsDialog.ps1" />
+    <Compile Include="Script-Samples\Unblock_QuickstartScripts.ps1" />
+    <Compile Include="Script-Samples\VaultConnection.ps1" />
+    <Compile Include="Script-Samples\VaultItemSearch.ps1" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Snippet Templates\VDS-PS-Snippet.snippet" />
+    <Content Include="Snippet Templates\VDS-XAML-Snippet.snippet" />
+    <Content Include="VDS Script Snippets\DataContext.snippet" />
+    <Content Include="VDS Script Snippets\dsWindowClose.snippet" />
+    <Content Include="VDS Script Snippets\Findname.snippet" />
+    <Content Include="VDS Script Snippets\If%28Prop%29%28True%29.snippet" />
+    <Content Include="VDS Script Snippets\If%28Prop%29.snippet" />
+    <Content Include="VDS Script Snippets\Inspector.snippet" />
+    <Content Include="VDS Script Snippets\Load-VaultExplorerExtension.snippet" />
+    <Content Include="VDS Script Snippets\Load-VaultWebServices.snippet" />
+    <Content Include="VDS Script Snippets\LoginUserName-CAD.snippet" />
+    <Content Include="VDS Script Snippets\LoginUserName-VLT.snippet" />
+    <Content Include="VDS Script Snippets\MessageBox.snippet" />
+    <Content Include="VDS Script Snippets\powerVault_Load-Version.snippet" />
+    <Content Include="VDS Script Snippets\powerVault_Load.snippet" />
+    <Content Include="VDS Script Snippets\ShowLog.snippet" />
+    <Content Include="VDS Script Snippets\SwitchWindow.snippet" />
+    <Content Include="VDS Script Snippets\Trace.snippet" />
+    <Content Include="VDS XAML Snippets\VDS-OK-myOnPostCloseDialog.snippet" />
+    <Content Include="VDS Script Snippets\VDS_TextBox.snippet" />
+    <Content Include="VDS XAML Snippets\VDS-DynGrid3rdColumnButton.snippet" />
+    <Content Include="VDS XAML Snippets\VDS-DynGridButton.snippet" />
+    <Content Include="VDS XAML Snippets\VDS-DynGrid3rdColumnButtonStyle.snippet" />
+    <Content Include="VDS XAML Snippets\VDS_Label.snippet" />
+    <Content Include="VDS XAML Snippets\VDS_TextBox.snippet" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Target Name="Build" />
+  <Import Project="$(MSBuildExtensionsPath)\PowerShell Tools for Visual Studio\PowerShellTools.targets" Condition="Exists('$(MSBuildExtensionsPath)\PowerShell Tools for Visual Studio\PowerShellTools.targets')" />
+</Project>

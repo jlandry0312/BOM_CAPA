@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DynamicProperties>
+  <DynamicPropertiesCategory Category="Folder" Type="Folder">
+    <DynamicProperty>Stock Number</DynamicProperty>
+    <DynamicProperty>Drawing Number</DynamicProperty>
+    <DynamicProperty>Vendor</DynamicProperty>
+    <DynamicProperty>Folder Description</DynamicProperty>
+    <DynamicProperty>Size</DynamicProperty>
+    <DynamicProperty>CLIENT</DynamicProperty>
+    <DynamicProperty>INITIAL SM JOB No.</DynamicProperty>
+  </DynamicPropertiesCategory>
+  <DynamicPropertiesCategory Category="Project" Type="Folder">
+    <DynamicProperty>Stock Number</DynamicProperty>
+    <DynamicProperty>Drawing Number</DynamicProperty>
+    <DynamicProperty>Vendor</DynamicProperty>
+    <DynamicProperty>Folder Description</DynamicProperty>
+    <DynamicProperty>Size</DynamicProperty>
+  </DynamicPropertiesCategory>
+</DynamicProperties>
